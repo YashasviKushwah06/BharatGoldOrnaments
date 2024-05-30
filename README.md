@@ -49,5 +49,3 @@
 This project is licensed under the MIT License.
 
 ---
-
-Feel free to adjust the formatting or wording as needed for your project documentation!

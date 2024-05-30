@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jewelry Customization Form</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="header">
+    <nav class="navbar">
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Services</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+  <div class="background">
+    <div class="container">
+      <div class="content">
+        <div class="text-sci">
+          <h2>Welcome!<br><span>to Bharat Gold Ornaments</span></h2>
+          <p>Crafting Timeless Elegance in Gold – Your Personal Touch of Luxury.</p>
+          <div class="social-icons">
+            <a href="">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+            <a href="">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+            <a href="">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+            <a href="">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </div>
+        </div>
+        <div class="loreg-box">
+          <div class="form-container">
+            <h1>Jewelry Customization</h1>
+            <form id="customization-form">
+              <div id="question-container">
+              </div>
+              <div class="navigation-buttons">
+                <button type="button" id="prevBtn" onclick="changeQuestion(-1)">Previous</button>
+                <button type="button" id="nextBtn" onclick="changeQuestion(1)">Next</button>
+                <button type="submit" id="submitBtn">Submit</button>
+              </div>
+              <div class="file-preview-container">
+                <img id="file-preview" src="" alt="Outfit Image Preview" style="max-width: 100%; display: none;">
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+  <script src="index.js"></script>
+</body>
+</html>
